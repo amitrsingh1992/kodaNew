@@ -1,0 +1,1308 @@
+
+body{
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
+}
+/*login form*/
+form {
+    width: 500px;
+    border: 1px solid #00D7D7;
+    padding: 25px;
+    margin: 25px;
+    height: 350px;
+margin-left: 22%;
+  margin-top:-5px;
+
+}
+
+.form-group {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.form-actions {
+    margin-left: 50px;
+    width: 100px;
+}
+
+#formButton{
+  margin-left:90px;
+   margin-top:20px;
+   width: 140px;
+    height: 40px;
+    background-color: rgba(22, 155, 213, 1);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+}
+#formButton:hover{
+  font-weight: 900;
+}
+#loginData {
+  font-family: 'Arial Bold', 'Arial';
+font-weight: 700;
+font-style: normal;
+font-size: 24px;
+    margin-left: 320px;
+      margin-top: 200px;
+}
+
+
+/*navbar css*/
+
+.navbar-right {
+    padding-right: 50px;
+}
+
+.navbar {
+    border-bottom-color: #000000 !important;
+    box-shadow: none;
+    height: 60px;
+}
+
+.glyphicon-triangle-bottom {
+    font-size: 25px;
+    color: white;
+}
+
+.glyphicon-menu-hamburger {
+    font-size: 40px;
+    background-color: inherit;
+}
+#kidName {
+    font-size: 20px;
+    color: white;
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+#appName {
+  font-family: 'Aharoni Bold', 'Aharoni';
+    font-size: 45px;
+    color: white;
+    font-weight:600;
+    margin-left: -20px;
+    margin-top: 5px;
+}
+
+#kidImg {
+    height: 50px;
+    width: 50px;
+}
+.movingLion{
+  margin-top:430px;
+    animation:  moveLion 1s forwards;
+
+}
+@keyframes moveLion {
+
+  100%{
+ transform: translateX(535px);
+
+  }
+}
+
+/*css for flip book image*/
+#mainRow{
+  overflow:inherit;
+  height:100vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+   margin-top:-20px;
+}
+
+#rowforChat{
+  margin-top:170px;
+   float:right;
+    padding-right:40px;
+}
+#rowforLion{
+  margin-top:10px;
+  float:right;
+   padding-right:15px;
+}
+
+.flipbookLion{
+  width: 170px;
+  height: 170px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+
+#fulldance {
+    position: absolute;
+    left: 180px;
+    top: 210px;
+    width: 650px;
+    height: 390px;
+    z-index: 2;
+}
+
+#dancingAnimals {
+    position: absolute;
+    left: 180px;
+    top: 160px;
+    width: 650px;
+    height: 390px;
+    z-index: 2;
+}
+
+.fulldance {
+    z-index: 1;
+    width: 881px;
+    height: 500px;
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
+
+#runningLion {
+    position: absolute;
+    left: 150px;
+    top: 160px;
+    width: 650px;
+    height: 390px;
+}
+
+#rockImg {
+    border-width: 0px;
+    width: 980px;
+    height: 680px;
+margin-left: 80px;
+margin-top: 140px;
+
+}
+#flipbook {
+    /*position: absolute;*/
+    margin-left: 150px;
+    margin-top: -700px;
+    width: 450px;
+    height: 350px;
+    z-index: 2;
+}
+#lionImg {
+    width: 380px;
+    height: 370px;
+}
+
+#danceVideo {
+    width: 430px;
+    height: 500px;
+    margin-top: 260px;
+    margin-left: 260px;
+}
+#play_button{
+  width: 140px;
+  height: 72px;
+    font-family: 'Julee';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+    border-radius: 8px;
+    background-color: rgba(51, 153, 0, 1);
+    color: white;
+    margin-left: 20px;
+}
+#next_button {
+  width: 140px;
+  height: 72px;
+    font-family: 'Julee';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+    border-radius: 8px;
+    background-color: rgba(51, 153, 0, 1);
+    color: white;
+    margin-left: 20px;
+    bottom:15px;
+     left:960px;
+      position:fixed;
+    -webkit-animation-name: greenPulse;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#next_button:hover{
+  font-size: 24px;
+}
+#back_button {
+    width: 140px;
+    height: 72px;
+    font-family:  'Julee';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin-left: 800px;
+    bottom:15px;
+     position:fixed;
+     left:20px;
+}
+
+#back_button:hover{
+  font-size: 24px;
+}
+
+/*welcome page css*/
+
+
+@-webkit-keyframes greenPulse {
+    from {
+        background-color: #749a02;
+        -webkit-box-shadow: 0 0 9px #333;
+    }
+    50% {
+        background-color: #91bd09;
+        -webkit-box-shadow: 0 0 18px #91bd09;
+    }
+    to {
+        background-color: #749a02;
+        -webkit-box-shadow: 0 0 9px #333;
+    }
+}
+
+#homepage-chat {
+    margin-left: 55%;
+    margin-top: 90px;
+}
+
+.Wrapper {
+    height: 950px;
+    width: 100%;
+}
+
+/*thank you page css*/
+
+.ninjabadgeBorder {
+    border: 90px solid #cc0000;
+    width: 460px;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.ninjabadgeBorderExp {
+    border: 35px solid #cc0000;
+    width: 170px;
+    text-align: center;
+    margin-left: 430px;
+    z-index: 2;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#ninjaBadgeExp {
+    width: 100px;
+    height: 100px;
+}
+
+#ninjaBadge {
+    width: 280px;
+    height: 280px;
+}
+
+.congrats {
+    font-family: "Arial";
+    font-weight: 100;
+    font-style: italic;
+    font-size: 30px;
+    color: #cc0000;
+    text-align: center;
+}
+
+#continue_button {
+    width: 240px;
+    height: 72px;
+    font-family:  'Axure Handwriting';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(51, 153, 0);
+    color: white;
+    margin-left: 20px;
+    -webkit-animation-name: greenPulse;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+}
+#continue_button:hover{
+  font-size: 24px;
+}
+.animationExp {
+    border: 5px solid #cc0000;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 255, 204);
+    margin-left: 170px;
+    font-family: "Arial";
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    margin-top: 140px;
+}
+
+
+/*wrong moves css*/
+.LionImagesBox{
+  border: 2px solid grey;
+  width: 636px;
+    height: 598px;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color:rgb(204, 204, 204);
+    box-shadow: rgba(255, 255, 255, 0.34902) 5px 5px 5px;
+}
+
+.lionMoves {
+  width: 166px;
+  height: 149px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    z-index: 2;
+    position: relative;
+}
+.lionImgBorder{
+  width: 188px;
+height: 170px;
+border: 1px solid black;
+background-color: white;
+text-align: center;
+}
+
+#lionBoxHeading{
+  font-family: "Arial Bold", Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+      word-wrap: break-word;
+}
+
+.sequenceBox{
+  width: 668px;
+    height: 680px;
+    border: 2px solid grey;
+    background-color:rgb(204, 204, 204);
+
+  margin-left: 200px;
+}
+
+#lion {
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+#chat {
+    margin-left: 10px;
+
+}
+
+#leftPoint {
+    float: right;
+    display: none;
+}
+
+#pointing {
+    display: none;
+}
+
+#rightpoint {
+    width: 320px;
+
+    height: auto;
+    float: left;
+    margin-top: 5%;
+}
+
+.subcards {
+  width: 195px;
+    height: 220px;
+    margin-top: 10px;
+background-color: white;
+z-index: 1;
+}
+.sequenceBox{
+  width: 668px;
+    height: 700px;
+    border: 2px solid grey;
+    background-color:rgb(204, 204, 204);
+
+  margin-left: 200px;
+}
+
+.headers {
+  font-family: 'Julee';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #1E1E1E;
+      width: 195px;
+    height: 30px;
+     border:2px solid rgb(242, 242, 242);
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    border-bottom: 1px solid black;
+    /*box-shadow: 1px 1px grey;*/
+}
+.drop {
+    width: 195px;
+    height: 176px;
+
+}
+
+#sample {
+    height: 150px;
+    width: 200px;
+    background: url("../images/rock.jpg") no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+}
+
+.drags {
+    margin-top: 10%;
+}
+
+.gifSample {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+#textStep1, #textStep {
+    margin-left: 33%;
+    background-color: #cccccc;
+}
+
+
+.navbarText {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Arial';
+    font-style: italic;
+}
+
+#playButton {
+    border: 3px solid white;
+    width: 80px;
+    margin-left: -100px;
+    border-radius: 8px;
+}
+
+
+/*css for guru_giraffe*/
+
+body{
+  overflow: hidden;
+}
+
+
+[ng-drag] {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  body{
+    overflow: hidden;
+  }
+    .item {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        cursor: move;
+        left: 90px;
+        top: 70px;
+        position: relative;
+        /*top:10px;*/
+        z-index: 2;
+    }
+    #characterHolder {
+        width: 500px;
+        height: 180px;
+        position: absolute;
+        /*left: 220px;*/
+        /*top:40px;*/
+        z-index: 3;
+    }
+    #droppedObjectsInChar {
+        z-index: 2;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin-top: -170px;
+        margin-left: -40px;
+        /*top: -10px;
+    left: 250px;*/
+    }
+    #scoreHolder {
+        width: 500px;
+        height: 180px;
+        /*display: inline-block;*/
+        /*border: 1px solid red;*/
+        position: absolute;
+        /*left: 220px;*/
+        z-index: 3;
+        /*top: 250px;*/
+    }
+    #droppedObjectsInScore {
+        z-index: 2;
+        position: relative;
+        /*border: 1px solid red;*/
+        width: 100px;
+        height: 100px;
+        margin-top: -90px;
+        margin-left: -40px;
+        /*top: 100px;
+    left: 30px;*/
+    }
+    #size {
+        border: 1px solid red;
+        width: 500px;
+        height: 180px;
+        margin-left: 200px;
+        margin-top: 50px;
+        /*background-image: url('../images/background.png');*/
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #backgroundHolder {
+        width: 500px;
+        height: 180px;
+        /*display: inline-block;*/
+        /*border: 1px solid red;*/
+        position: absolute;
+        /*left: 220px;*/
+        z-index: 3;
+        /*top: 450px;*/
+    }
+    #droppedObjectsInBg {
+        z-index: 1;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin-top: -90px;
+        margin-left: -40px;
+        /*top: 260px;
+    left: 30px;*/
+    }
+    .Holder {
+        z-index: 1;
+        width: 900px;
+        height: 700px;
+        position: absolute;
+        top: 30px;
+        background-image: url('../images/placeholder_activity.png');
+    }
+    ul.draggable-objects:after {
+        display: block;
+        content: "";
+        clear: both;
+        /*position: fixed;*/
+    }
+    .draggable-objects li {
+        float: left;
+        display: block;
+        width: 120px;
+        height: 100px;
+    }
+    [ng-drag].dragging {
+        opacity: 1;
+        z-index: 3;
+        position: absolute;
+    }
+    #giraffeimg {
+        width: 408px;
+        height: 418px;
+    }
+    #speechBubble {
+        width: 415px;
+        height: 308px;
+        /*position: absolute;*/
+    }
+    #giffimg {
+        width: 408px;
+        height: 418px;
+    }
+    #speechBubblechat {
+        width: 415px;
+        height: 308px;
+        /*position: absolute;*/
+    }
+    #Next_button {
+        position: absolute;
+        top: 740px;
+        left: 550px;
+        width: 140px;
+        height: 72px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: green;
+        color: white;
+        -webkit-animation-name: greenPulse;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+    }
+    #Next_button:hover{
+      font-size: 24px;
+    }
+    #previous_button {
+        position: absolute;
+        top: 740px;
+        left: 380px;
+        width: 140px;
+        height: 72px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+
+    #toolHolder {
+        width: 418px;
+        height: 710px;
+        float: left;
+        position: absolute;
+        z-index: 1;
+        top: 20px;
+    }
+    #activityHolder {
+        width: 1000px;
+        height: 705px;
+        position: absolute;
+        top: 10px;
+        left: -30px;
+    }
+    #Holder {
+        width: 463px;
+        height: 259px;
+        position: relative;
+        left: 250px;
+        top: 80px;
+        z-index: 1;
+    }
+    #smallImg {
+        width: 136px;
+        height: 131px;
+        /*z-index: 5000;*/
+    }
+    #circle_giff {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 250px;
+        top: 350px;
+        /*z-index: 2;*/
+        animation: example 2s forwards;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+    }
+    @keyframes example {
+        0% {
+            left: 270px;
+            top: 300px;
+        }
+        100% {
+            left: 30px;
+            top: 30px;
+        }
+    }
+    #para1 {
+        position: relative;
+        left: 40px;
+        top: 40px;
+        font-family: 'Axure Handwriting italic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+        -webkit-animation: para1 7s;
+    }
+    @-webkit-keyframes para1 {
+        0% {
+            opacity: 0;
+        }
+        49% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        99% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    #para2 {
+        position: relative;
+        left: 40px;
+        top: 20px;
+        font-family: 'Axure Handwriting italic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+        -webkit-animation: para1 8s;
+    }
+    @keyframes text {
+        0% {
+            left: 270px;
+            top: 300px;
+        }
+    }
+    #circle_star {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: -40px;
+        top: 350px;
+        /*z-index: 2;*/
+        /*transition: 1s animation 200ms;*/
+        -webkit-animation-delay: 4s;
+        animation: bubble 2s forwards;
+        animation-delay: 4s;
+    }
+    @keyframes bubble {
+        0% {
+            left: 40px;
+            top: 300px;
+        }
+        100% {
+            left: 130px;
+            top: 30px;
+        }
+    }
+    #para3 {
+        position: relative;
+        left: 150px;
+        top: 40px;
+        font-family: 'Axure Handwriting italic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+        -webkit-animation: para1 12s;
+    }
+    #para4 {
+        position: relative;
+        left: 150px;
+        top: 20px;
+        font-family: 'Axure Handwriting italic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+        -webkit-animation: para1 13s;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .item {
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        cursor: move;
+        left: 50px;
+        top: 40px;
+        position: relative;
+        /*top:10px;*/
+        z-index: 2;
+    }
+    #characterHolder {
+        width: 320px;
+        height: 110px;
+        position: absolute;
+        /*left: 220px;*/
+        /*top:40px;*/
+        z-index: 3;
+    }
+    #droppedObjectsInChar {
+        z-index: 2;
+        position: relative;
+        width: 80px;
+        height: 80px;
+        margin-top: -170px;
+        margin-left: -20px;
+        /*top: -10px;
+            left: 250px;*/
+    }
+    #scoreHolder {
+        width: 320px;
+        height: 110px;
+        /*display: inline-block;*/
+        /*border: 1px solid red;*/
+        position: absolute;
+        /*left: 220px;*/
+        z-index: 3;
+        /*top: 250px;*/
+    }
+    #droppedObjectsInScore {
+        z-index: 2;
+        position: relative;
+        /*border: 1px solid red;*/
+        width: 80px;
+        height: 80px;
+        margin-top: -90px;
+        margin-left: -40px;
+        /*top: 100px;
+            left: 30px;*/
+    }
+    #size {
+        border: 1px solid red;
+        width: 320px;
+        height: 110px;
+        margin-left: 100px;
+        margin-top: 50px;
+        /*background-image: url('../images/background.png');*/
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #backgroundHolder {
+        width: 320px;
+        height: 110px;
+        /*display: inline-block;*/
+        /*border: 1px solid red;*/
+        position: absolute;
+        /*left: 220px;*/
+        z-index: 3;
+        /*top: 450px;*/
+    }
+    #droppedObjectsInBg {
+        z-index: 1;
+        position: relative;
+        width: 80px;
+        height: 80px;
+        margin-top: -90px;
+        margin-left: -40px;
+        /*top: 260px;
+            left: 30px;*/
+    }
+    .Holder {
+        z-index: 1;
+        width: 500px;
+        height: 570px;
+        position: absolute;
+        top: 30px;
+        background-image: url('../images/placeholder_activity.png');
+    }
+    ul.draggable-objects:after {
+        display: block;
+        content: "";
+        clear: both;
+        /*position: fixed;*/
+    }
+    .draggable-objects li {
+        float: left;
+        display: block;
+        width: 120px;
+        height: 100px;
+    }
+    [ng-drag].dragging {
+        opacity: 1;
+        z-index: 3;
+        position: absolute;
+    }
+    #giraffeimg {
+        width: 250px;
+        height: 318px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    #speechBubble {
+        width: 215px;
+        height: 208px;
+        margin-top: 30px;
+        margin-left: 50px;
+        /*position: absolute;*/
+    }
+    #giffimg {
+        width: 250px;
+        height: 318px;
+        margin-top: 50px;
+        /*margin-left: 50px;*/
+    }
+    #speechBubblechat {
+        width: 230px;
+        height: 220px;
+    }
+
+    #leftcornerBox {
+        border: 1px solid black;
+        background-color: rgba(215, 215, 215, 1);
+        width: 100px;
+        height: 100px;
+        left: 20px;
+        top: 20px;
+    }
+    #toolHolder {
+        width: 250px;
+        height: 570px;
+        float: left;
+        position: absolute;
+        z-index: 1;
+        top: 32px;
+        /*left: 0px;*/
+    }
+    #activityHolder {
+        width: 550px;
+        height: 570px;
+        position: absolute;
+        top: 10px;
+        left: -30px;
+    }
+    #Holder {
+        width: 280px;
+        height: 200px;
+        position: relative;
+        left: 110px;
+        top: 80px;
+        z-index: 1;
+    }
+    #smallImg {
+        width: 136px;
+        height: 131px;
+        /*z-index: 5000;*/
+    }
+    #circle_giff {
+        width: 180px;
+        height: 180px;
+        position: relative;
+        left: 100px;
+        top: 320px;
+        /*z-index: 2;*/
+        animation: example 2s forwards;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+    }
+    @keyframes example {
+        0% {
+            left: 100px;
+            top: 320px;
+        }
+        100% {
+            left: -10px;
+            top: 30px;
+        }
+    }
+    #para1 {
+        position: relative;
+        left: 0px;
+        top: 40px;
+        font-family: 'Axure Handwriting italic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 15px;
+        -webkit-animation: para1 7s;
+    }
+    @-webkit-keyframes para1 {
+        0% {
+            opacity: 0;
+        }
+        49% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        99% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    #para2 {
+        position: relative;
+        left: 0px;
+        top: 30px;
+        font-family: 'Axure Handwriting italic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 15px;
+        -webkit-animation: para1 8s;
+    }
+    @keyframes text {
+        0% {
+            left: 270px;
+            top: 300px;
+        }
+    }
+    #circle_star {
+        width: 180px;
+        height: 180px;
+        position: relative;
+        left: -60px;
+        top: 320px;
+        /*z-index: 2;*/
+        /*transition: 1s animation 200ms;*/
+        -webkit-animation-delay: 4s;
+        animation: bubble 2s forwards;
+        animation-delay: 4s;
+    }
+    @keyframes bubble {
+        0% {
+            left: -60px;
+            top: 320px;
+        }
+        100% {
+            left: 40px;
+            top: 30px;
+        }
+    }
+    #para3 {
+        position: relative;
+        left: 60px;
+        top: 40px;
+        font-family: 'Axure Handwriting italic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 15px;
+        -webkit-animation: para1 12s;
+    }
+    #para4 {
+        position: relative;
+        left: 60px;
+        top: 30px;
+        font-family: 'Axure Handwriting italic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 15px;
+        -webkit-animation: para1 13s;
+    }
+}
+/*css for ninja badge page*/
+.lion-achievement-box {
+width: 40%;
+height:400px;;
+margin: 0 auto;
+background: rgba(255,255,255,1);
+padding: 35px;
+border: 2px solid #fff;
+border-radius: 10px;
+background-clip: padding-box;
+text-align: center;
+margin-left: 28%;
+}
+
+
+.lion-achievement-overlay {
+position: fixed;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+width:100%;
+height:100vh;
+background: rgba(0, 0, 0, 0.7);
+transition: opacity 500ms;
+visibility: hidden;
+opacity: 0;
+}
+.lion-achievement-overlay:target {
+visibility: visible;
+opacity: 1;
+}
+
+.lion-achievement-popup {
+margin: 70px auto;
+padding: 20px;
+margin-top: 13.5%;
+height:400px;
+background: #fff;
+border-radius: 5px;
+width: 40%;
+position: relative;
+/*transition: all 5s ease-in-out;*/
+}
+.lion-close{
+  color:red!important;
+  opacity: 1!important;
+  top: -4%!important;
+  right:-1%!important;
+}
+
+.lion-achievement-popup  {
+margin-top: 0;
+color: #333;
+font-family: Tahoma, Arial, sans-serif;
+}
+#lion-achievement-sequence:hover{
+  width:240px;
+  height:250px;
+}
+#lion-achievement-animation:hover{
+  width:236px;
+  height:250px;
+}
+#lion-achievement-sequence{
+  margin-top: 10%;
+}
+#lion-achievement-animation{
+  margin-top: 10%;
+}
+.lion-achievement-popup .lion-achievement-close {
+position: absolute;
+top: 20px;
+right: 30px;
+transition: all 200ms;
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+color: #333;
+}
+.lion-achievement-popup .lion-achievement-close:hover {
+color: #06D85F;
+}
+.lion-achievement-popup{
+  margin-top: 14%;
+  margin-left: 28%;
+}
+.lion-achievement-popup .lion-achievement-content {
+max-height: 30%;
+/*overflow: auto;*/
+}
+#lion-achievement-milestone {
+    width: 100%;
+    height: 200px;
+    margin-top: -1.0%;
+}
+#lion-cross{
+  margin-left: 90%;
+  margin-top: -140%;
+}
+#lion-actionText{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: arial,helvetica,sans-serif;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+#lion-continuebutton {
+    width: 600px;
+    height: 80px;
+    background: green;
+    border: 2px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    opacity: 0.2;
+    margin-top: 3%;
+    margin-left: 33%;;
+    -webkit-animation-name: lionbadge;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 10s;
+}
+#lion-continuebutton:hover{
+  font-size: 28px;
+}
+@-webkit-keyframes lionbadge {
+    from {background-color: #749a02;-webkit-box-shadow: 0 0 9px #333;opacity: 1;border: 2px solid rgba(255, 255, 255, 1);}
+    50% {background-color: #91bd09;-webkit-box-shadow: 0 0 18px #91bd09;opacity: 1;border: 2px solid rgba(255, 255, 255, 1);}
+    to {background-color: #749a02;-webkit-box-shadow: 0 0 9px #333;opacity: 1;border: 2px solid rgba(255, 255, 255, 1);}
+}
+.lion-options{
+  margin-left: 700px;;
+  margin-top:20px;
+  display: inline-flex;
+}
+.lion-popup1-content p{
+  color:violet;
+  text-align: center;
+  font-size: 20px;
+}
+.lion-popup2-content p{
+  color:violet;
+  text-align: center;
+  font-size: 20px;
+}
+.lion-popup2-content{
+  display: inline-flex;
+}
+#lion-pop-lion{
+  height:300px;
+  width:250px;
+  margin-top: 20%;
+}
+#lion-walk{
+  margin: 0 15%;
+  width: 554px;
+  height:150px;
+}
+.lion-inner-chat{
+  margin-top: 4%;
+}
+.lionBadgePage{
+  background-color: #FFCC00;
+  height:100vh;
+  margin-top: -20px;
+}
+#lion-achievement-milestone{
+  margin-top: 0px;
+}
+.lion-roundhome  a{
+  color:black;
+}
+.lion-roundhome a:hover{
+  color:black;
+}
+.lion-replaybutton  a{
+  color:black;
+}
+.lion-replaybutton  a:hover{
+  color:black;
+}
+/*css for welcome user page*/
+.WelcomeUser{
+  width:auto;
+  height:auto;
+  margin-top: 4%;
+  text-align: center;
+}
+#welcome-user-title{
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  font-family:'Arial Bold','Arial';
+}
+#welcome-user-welcomeNote{
+  font-size:24px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Arial';
+  margin-top: 2%;
+}
+#welcome-action-button{
+    background-color:rgba(22, 155, 213, 1);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: none;
+    border:none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Arial';
+    font-style: normal;
+    width: 335px;
+    height:40px;
+    margin-top: 5%;
+}
+#welcome-action-button:hover{
+  font-size: 24px;
+}

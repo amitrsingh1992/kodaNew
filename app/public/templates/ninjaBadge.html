@@ -1,0 +1,92 @@
+<div class="lionBadgePage">
+  <img ng-src="./assests/images/milestone.png" id="lion-achievement-milestone" alt="milestone banner image" />
+  <div class="lion-achievement-box">
+    <div class="row">
+      <div class="animataion-div col-lg-6">
+        <a class="lion-achievement-button1" ui-sref="#lion-achievement-popup1">
+          <img ng-src="./assests/images/animationNinja.png" id="lion-achievement-animation" alt="animation ninja batch" />
+        </a>
+      </div>
+      <div class="sequence-div col-lg-6">
+        <a class="lion-achievement-button2" ui-sref="#lion-achievement-popup2">
+          <img ng-src="./assests/images/sequenceSavvy.png" id="lion-achievement-sequence" alt="sequence savvy bactch" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="lion-achievement-popup1" class="lion-achievement-overlay">
+    <div class="lion-achievement-popup">
+      <!-- <h2>Here i am popup1</h2> -->
+      <a class="lion-close" ui-sref="ninjaBadge"><img ng-src="../assests/images/cross.png" id="lion-cross" alt="cross image" /></a>
+      <div class="lion-achievement-content">
+        <div class="lion-popup1-content">
+          <p>
+            Animation is nothing but making a sequence of images or pictures look live!
+          </p>
+          <p>
+            Each successive image  in the sequence  differs from the previous  one in little ways.
+            Perhaps in the positions of limbs of a character,locations of things, or the look of a
+            character
+          </p>
+          <img ng-src="./assests/images/walkinProgress.png" id="lion-walk" alt=" popup walk image" />
+          <p>
+            when such a sequence  of images  is seen  in quick succession ,it looks like the
+            character  is moving , the various things  in  the scene  are in  motion, or the appearance
+            of the character is changing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="lion-achievement-popup2" class="lion-achievement-overlay">
+    <div class="lion-achievement-popup">
+      <!-- <h2>Here i am popup2</h2> -->
+      <a class="lion-close" ui-sref="ninjaBadge"><img ng-src="./assests/images/cross.png" id="cross"alt="cross image" /></a>
+      <div class="lion-achievement-content">
+        <div class="lion-popup2-content"ng-hide()>
+          <div class="lion-inner-chat">
+            <p>To learn the dance sequence,
+              it was very important to identify the steps first.
+            </p>
+            <p>
+              But even though I did identify the steps,I did not
+              have the order inplace.
+            </p>
+            <p>
+              You saw exactly what happened when I had the
+              wrong order of steps.I looked like I was have a fit.
+            </p>
+            <p>
+              It's very important to remember what you have learnt
+              here.No not dance,but identifying the steps and
+              their sequence.
+            </p>
+            <p>
+              You will find you need it often in life.
+            </p>
+          </div>
+          <div class="lion-pop-lion">
+            <img ng-src="./assests/images/lionMascot.png" id="lion-pop-lion" alt="lion image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lion-options">
+    <div class="lion-replaybutton">
+      <a ui-sref="welcome" style="text-decoration:none">
+        <img ng-src="./assests/images/replaybutton.png" alt="replay logo">
+        <span id="lion-actionText">Replay this level</span>
+      </a>
+    </div>
+    <div class="lion-roundhome">
+      <a ui-sref="welcome" style="text-decoration:none">
+        <img ng-src="./assests/images/roundhome.png" alt="home logo">
+        <span id="lion-actionText">Go to my Dashboard</span>
+      </a>
+    </div>
+  </div>
+  <div class="lion-continue">
+    <input type="button" id="lion-continuebutton" value="CONTINUE ON THE JOURNEY!" />
+  </div></div>
